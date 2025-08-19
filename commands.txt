@@ -1,0 +1,9 @@
+docker compose up -d
+for logs: docker logs -f pg-lab
+docker exec -it pg-lab psql -U app -d mydb
+
+
+So the difference is:
+    Single Postgres → docker exec -it pg-lab psql -U app -d mydb
+
+    Sharded → docker exec -it shard1 psql -U app -d shard1 OR use psql -h localhost -p 5433 ...
