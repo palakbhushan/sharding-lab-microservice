@@ -130,4 +130,4 @@ User is automatically routed to the correct shard based on UUID.
 ---
 
 Author: Palak Bhushan  
-Repo: https://github.com/palakbhushan/sharding-lab
+Repo: https://github.com/palakbhushan/sharding-lab-microservice
